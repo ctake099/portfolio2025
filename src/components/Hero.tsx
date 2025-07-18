@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section className="pt-20 pb-16 px-6">
+    <section id="hero" className="pt-20 pb-16 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
           {/* Profile Icon */}
