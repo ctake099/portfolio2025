@@ -35,8 +35,11 @@ export default function Header() {
 
   const scrollToSection = (sectionId: string) => {
     // 現在のページがホームページでない場合は、ホームページに移動してからスクロール
-    if (window.location.pathname !== '/') {
-      window.location.href = `/#${sectionId}`;
+    const currentPath = window.location.pathname;
+    const basePath = process.env.NODE_ENV === 'production' ? '/portfolio2025' : '';
+    
+    if (currentPath !== basePath + '/' && currentPath !== basePath) {
+      window.location.href = `${basePath}/#${sectionId}`;
       return;
     }
     
