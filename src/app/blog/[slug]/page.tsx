@@ -27,7 +27,7 @@ interface Params {
 }
 
 interface Props {
-  params: Params;
+  params: Promise<Params>;
 }
 
 function generateToc(content: string): TocItem[] {
@@ -36,14 +36,13 @@ function generateToc(content: string): TocItem[] {
   let match;
   
   while ((match = headingRegex.exec(content)) !== null) {
-    const level = match[1].length;
     const title = match[2].trim();
     const id = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     
     toc.push({
       id,
       title,
-      level,
+      level: match[1].length,
     });
   }
   
@@ -52,7 +51,6 @@ function generateToc(content: string): TocItem[] {
 
 function addIdsToHeadings(content: string): string {
   return content.replace(/^(#{1,6})\s+(.+)$/gm, (match, hashes, title) => {
-    const level = hashes.length;
     const id = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     return `${hashes} ${title} {#${id}}`;
   });
@@ -89,7 +87,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
       content: finalContent,
       toc,
     };
-  } catch (error) {
+  } catch {
     return null;
   }
 }

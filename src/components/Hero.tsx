@@ -44,7 +44,7 @@ export default function Hero() {
           {/* Content */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-2">
-              Hello, I'm <span className="text-blue-500">ctake099</span>
+              Hello, I&apos;m <span className="text-blue-500">ctake099</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6">
@@ -52,7 +52,7 @@ export default function Hero() {
             </p>
             
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl">
-              I'm passionate about creating modern web applications and exploring the possibilities of artificial intelligence.
+              I&apos;m passionate about creating modern web applications and exploring the possibilities of artificial intelligence.
             </p>
           </div>
         </div>

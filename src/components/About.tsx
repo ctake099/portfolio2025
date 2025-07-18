@@ -6,14 +6,14 @@ export default function About() {
         
         <div className="max-w-2xl">
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-            I'm passionate about creating modern web applications and exploring the possibilities of artificial intelligence. 
-            I'm a passionate web developer with a strong interest in artificial intelligence and modern web technologies. 
+            I&apos;m passionate about creating modern web applications and exploring the possibilities of artificial intelligence. 
+            I&apos;m a passionate web developer with a strong interest in artificial intelligence and modern web technologies. 
             I love creating clean, efficient, and user-friendly applications that solve real-world problems.
             <br /><br />
-            Currently, I'm exploring the intersection of web development and AI, building applications that leverage 
+            Currently, I&apos;m exploring the intersection of web development and AI, building applications that leverage 
             machine learning to create better user experiences.
             <br /><br />
-            When I'm not coding, you can find me learning about new technologies, contributing to open-source projects, 
+            When I&apos;m not coding, you can find me learning about new technologies, contributing to open-source projects, 
             or exploring the latest trends in design and development.
           </p>
         </div>

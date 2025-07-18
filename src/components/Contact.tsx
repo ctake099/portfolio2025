@@ -6,7 +6,7 @@ export default function Contact() {
         
         <div className="max-w-2xl">
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to work together.
+            I&apos;m always interested in new opportunities and collaborations. Feel free to reach out if you&apos;d like to work together.
           </p>
           
           <div className="text-lg">
