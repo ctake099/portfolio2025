@@ -54,14 +54,14 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 bg-white dark:bg-gray-900 z-50 border-b border-gray-100 dark:border-gray-800">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex justify-between items-center h-16">
-          <div>
+          <div className="w-40">
             {/* Show Back to Blog link only on blog post pages, ctake099 on all other pages */}
-            {pathname.includes('/blog/') && pathname !== '/blog' && !pathname.endsWith('/blog/') ? (
+            {pathname.startsWith('/blog/') && pathname.length > 6 ? (
               <Link 
                 href="/blog" 
-                className="inline-flex items-center gap-2 text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 font-medium transition-colors"
+                className="inline-flex items-center font-medium text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
                 Back to Blog
@@ -69,7 +69,7 @@ export default function Header() {
             ) : (
               <Link 
                 href="/" 
-                className="font-medium text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
+                className="inline-flex items-center font-medium text-gray-900 dark:text-white hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
               >
                 ctake099
               </Link>
