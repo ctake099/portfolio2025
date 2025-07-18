@@ -56,7 +56,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <div>
             {/* Show Back to Blog link only on blog post pages, ctake099 on all other pages */}
-            {pathname.startsWith('/blog/') && !pathname.endsWith('/blog') ? (
+            {pathname.startsWith('/blog/') && pathname !== '/blog' ? (
               <Link 
                 href="/blog" 
                 className="inline-flex items-center gap-2 text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 font-medium transition-colors"
