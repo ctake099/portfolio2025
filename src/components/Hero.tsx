@@ -7,10 +7,8 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
           {/* Profile Icon */}
           <div className="flex flex-col items-center">
-            <div className="w-24 h-24 md:w-32 md:h-32 bg-blue-500 rounded-full flex items-center justify-center mb-4">
-              <svg className="w-12 h-12 md:w-16 md:h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
+            <div className="w-24 h-24 md:w-32 md:h-32 mb-4">
+              <img src="dog.png" alt="" className="w-full h-full object-cover rounded-full" />
             </div>
             
             {/* Social Links */}
@@ -28,7 +26,7 @@ export default function Hero() {
               </a>
               
               <a
-                href="https://x.com/ctake099"
+                href="https://x.com/AIkiwametai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-black dark:bg-gray-800 text-white rounded-lg hover:bg-gray-800 dark:hover:bg-gray-700 transition-colors"
@@ -44,15 +42,12 @@ export default function Hero() {
           {/* Content */}
           <div className="flex-1 text-center md:text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-2">
-              Hello, I&apos;m <span className="text-blue-500">ctake099</span>
+              <span className="text-blue-500">ctake099</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6">
-              Web Developer & AI Student
-            </p>
-            
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl">
-              I&apos;m passionate about creating modern web applications and exploring the possibilities of artificial intelligence.
+            東京工科大学 コンピュータサイエンス学科 B3<br />
+            Web開発、LLM、強化学習に興味があります
             </p>
           </div>
         </div>

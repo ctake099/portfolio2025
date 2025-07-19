@@ -6,15 +6,15 @@ export default function Contact() {
         
         <div className="max-w-2xl">
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            I&apos;m always interested in new opportunities and collaborations. Feel free to reach out if you&apos;d like to work together.
+            XのDMまたは以下のメールアドレス
           </p>
           
           <div className="text-lg">
             <a 
-              href="mailto:your.email@example.com" 
+              href="mailto:ctake0099@gmail.com" 
               className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300 transition-colors"
             >
-              your.email@example.com
+              ctake0099[at]gmail.com
             </a>
           </div>
         </div>
