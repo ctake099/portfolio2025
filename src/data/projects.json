@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Portfolio",
     "description": "Next.jsを使用して作成したポートフォリオ",
-    "image": "/images/projects/portfolio.png",
+    "image": "/portfolio2025/images/projects/portfolio.png",
     "github": "https://github.com/ctake099/portfolio2025",
     "technologies": ["Next.js", "TypeScript", "Claude Code"]
   }
