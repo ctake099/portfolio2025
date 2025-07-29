@@ -1,0 +1,16 @@
+{
+  "name": "ctake099 - Portfolio", 
+  "short_name": "Portfolio",
+  "description": "東京工科大学 コンピュータサイエンス学科 B3のポートフォリオ",
+  "start_url": "/portfolio2025/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/portfolio2025/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
