@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       { rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#3b82f6" },
     ],
   },
-  manifest: "/site.webmanifest",
+  manifest: `${process.env.NODE_ENV === 'production' ? '/portfolio2025' : ''}/site.webmanifest`,
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
     { media: "(prefers-color-scheme: dark)", color: "#111827" },
