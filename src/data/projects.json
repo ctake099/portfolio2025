@@ -6,5 +6,21 @@
     "image": "/portfolio2025/images/projects/portfolio.png",
     "github": "https://github.com/ctake099/portfolio2025",
     "technologies": ["Next.js", "TypeScript", "Claude Code"]
+  },
+  {
+    "id": 2,
+    "title": "Tetris",
+    "description": "3人チームで初めのチーム開発で作成したTetris",
+    "image": "/portfolio2025/images/projects/tetris.png",
+    "github": "https://github.com/ctake099/tetris",
+    "technologies": ["JavaScript", "HTML", "CSS", "チーム開発"]
+  },
+  {
+    "id": 3,
+    "title": "Chat",
+    "description": "CUIで動作するChatを作成した",
+    "image": "/portfolio2025/images/projects/chat.png",
+    "github": "https://github.com/ctake099/SimpleChat",
+    "technologies": ["Python", "CUI", "TCP/IP"]
   }
 ]
