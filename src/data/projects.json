@@ -12,7 +12,7 @@
     "title": "Tetris",
     "description": "3人チームで初めのチーム開発で作成したTetris",
     "image": "/portfolio2025/images/projects/tetris.png",
-    "github": "https://github.com/ctake099/tetris",
+    "github": "https://github.com/teamdev-Cteam/tetris",
     "technologies": ["JavaScript", "HTML", "CSS", "チーム開発"]
   },
   {
