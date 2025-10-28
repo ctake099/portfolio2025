@@ -22,5 +22,13 @@
     "image": "/portfolio2025/images/projects/chat.png",
     "github": "https://github.com/ctake099/SimpleChat",
     "technologies": ["Python", "CUI", "TCP/IP"]
+  },
+  {
+    "id": 4,
+    "title": "SpoTube",
+    "description": "Spotifyの履歴からMVを検索するサービス",
+    "image": "/portfolio2025/images/projects/spotube.png",
+    "github": "https://github.com/seichan-official/Golang_API/tree/feature/%2311_modify_frontend?tab=readme-ov-file",
+    "technologies": ["Go", "JavaScript", "React", "Spotify API", "YouTube API", "チーム開発"]
   }
 ]
